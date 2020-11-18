@@ -1,0 +1,211 @@
+body {
+    text-align: center;
+}
+
+#s1 {
+    background: linear-gradient(to bottom right, #0c767a 0%, #0c387a 100%);
+    height: 600px;
+    width: 900px;
+    margin-left: 10px;
+    border-style: groove;
+    border-width: 10px;
+}
+
+#oxford {
+    font-size: 50px;
+    padding-top: 80px;
+    color: #c9eef5;
+}
+
+#present {
+    font-size: 70px;
+    font-family: Snell Roundhand;
+    color: white;
+
+}
+
+#favorite {
+    font-size: 40px;
+    font-family: helvetica;
+    color: #f8d4fa;
+}
+
+.text {
+    position: absolute;
+    top: 29%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+#search {
+    height: 230px;
+    width: 300px;
+}
+
+#welcome {
+    font-size: 33px;
+    color: #918180;
+    margin-bottom: 70px;
+}
+
+#explore {
+    font-size: 30px;
+    color: #f5078a;
+}
+
+#s2 {
+    background-color: #faedfa;
+    height: 640px;
+    border: 10px;
+    border-color: pink;
+    border-style: solid;
+    z-index: 9;
+}
+
+#fi {
+    margin-bottom: 25px;
+    border-width: 2px;
+    border-color: pink;
+    border-style: ridge;
+}
+
+#books {
+    height: 200px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+#s3 {
+    background: linear-gradient(#c6b0f5 0%, #f2c4ee 100%);
+    height: 500px;
+}
+
+#hobby {
+    font-size: 40px;
+    font-family: Marker Felt;
+    color: #32166e;
+}
+
+#hobbyname {
+    font-size: 30px;
+    font-family: Apple Chancery;
+    letter-spacing: 6px;
+}
+
+#books2 {
+    height: 800px;
+    width: 900px;
+    filter: opacity(50%);
+}
+
+.text2 {
+
+    position: absolute;
+    top: 163%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #00ACC1;
+
+}
+
+#suitcase {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 840px;
+
+}
+
+#hawaiibeach {
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    height: 90px;
+    width: 150px;
+}
+
+#stamp {
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    height: 50px;
+    width: 100px;
+}
+
+#dance {
+    position: absolute;
+    top: 650px;
+    left: 650px;
+
+}
+
+#flowers {
+    position: absolute;
+    top: 470px;
+    left: 550px;
+    height: 100px;
+}
+
+#food {
+    position: absolute;
+    top: 550px;
+    left: 130px;
+    height: 150px;
+}
+
+#resort {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    height: 100px;
+}
+
+#volcano {
+    position: absolute;
+    top: 650px;
+    left: 400px;
+    height: 100px;
+}
+
+#flag {
+    position: absolute;
+    top: 730px;
+    left: 200px;
+    height: 80px;
+}
+
+#hawaiip {
+    font-size: 50px;
+    color: #4CAF50;
+}
+
+#hawaii {
+    font-size: 50px;
+    color: #f01669;
+}
+
+#s5 {
+    background: linear-gradient(to bottom right, #faf8e1 0%, #aef5e9 100%);
+    height: 1000px;
+}
+
+.menu {
+    font-family: 'Zilla Slab', serif;
+    list-style: none;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    position: fixed;
+    background-color: white;
+}
+.items{
+    float: left;
+    padding: 10px;
+    color: #f20f7d;
+}
+.items:hover{
+    background-color: #f5dae7;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MY FAVORITE THINGS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="s1" style="display:block">
+        <p id="oxford">OXFORD UNIVERSITY PRESS</p>
+        <p id="present">Presents...</p>
+        <p id="favorite">my.favorite.com</p>
+        <button id="go" onclick="welcomefav()">Go to my.favorite.com</button>
+    </section>
+            <ul class="menu">
+            <li class="items" onclick="welcomefav()">ABOUT</li>
+            <li class="items" onclick="favorite()">MY FAVORITE HOBBY</li>
+            <li class="items" onclick="hawaii()">MY FAVORITE PLACE</li>
+            <li class="items" onclick="next2ins()">MY INSPIRATION</li>
+            <li class="items">CONTACT</li>
+        </ul>
+    <section id="s2" style="display:none">
+
+        <div class="container">
+            <img id="search" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTd9QOlIPIoAE8JwzuC-MXFvRAuRIhR2q1o2g&usqp=CAU">
+            <div id="searcht" class="text">my.favorite.com</div>
+        </div>
+        <p id="welcome">Welcome to my.favorite.com!</p>
+        <p id="explore">Where you can explore...</p>
+        <img id="fi" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbnFdm6dbmeEpVCcPdkcYAFAYbJILXUHlGiA&usqp=CAU">
+        <div>
+            <button id="check" onclick="favorite()">Check it Out!</button>
+        </div>
+    </section>
+    <section id="s3" style="display:none">
+        <img id="books" src="https://i.pinimg.com/originals/2e/08/19/2e081964edee58c285f1eccd68c8674c.jpg">
+        <p id="hobby">MY FAVORITE HOBBY</p>
+        <p id="hobbyname">Reading Books</p>
+    </section>
+    <section id="s4" style="display:none">
+        <div class="container">
+            <img id="books2" src="https://now.tufts.edu/sites/default/files/180625_summer_books_lg.jpg">
+            <div id="bookt" class="text2">Imagine you are in a magical place, it can be anywhere you want. A place where you meet new people, travel, visit many places, go on long journeys, learn about the people, and solve mysteries. Wouldn't that be nice?
+                <br>
+                At that time, an unknown happiness rises in you. Something so powerful, that it leaves a mark in your memory. Where would you get such happiness (or other feelings-anger, sadness, etc.) Well there are two places- real life and books. You know about real life, so, let's talk books. Although books can tell you about people's lives (biographies, autobiographies), or give you facts about animals, plants, human body, natural phenomenas, natural disasters, places, etc.(they all fall under the nonfiction category), there are also books that are funny and bring joy and happiness/laughter, books that can help you stay calm/calm down.
+                <br>
+                Some can help you learn things which in turn help your brain "grow" and develop. Books can also improve your language and vocabulary. By reading, your words and sentences become more fluent and not sound like forks and knives clanging in a drawer.
+                <br>
+                When I read, I like to imagine what just happened and immerse in the story. The story plays like a movie in my head. My brain automatically imagines and pictures what the story might look like. It makes your imagination grow. Books can give you ideas and make YOU a creative person.
+                <br>
+                Because of these reasons, I would like conclude that reading books is really fun and my absolute FAVORITE hobby. I hope that sometime you may find a love of books. Keep reading!
+            </div>
+
+        </div>
+        <button id="nexth" onclick="hawaii()">NEXT</button>
+    </section>
+    <section id="s5" style="display:none">
+        <p id="hawaiip">My Favorite Place is...</p>
+        <p id="hawaii">HAWAII</p>
+        <img src="https://p.kindpng.com/picc/s/367-3678245_travel-bag-flat-icon-vector-luggage-png-gif.png" id="suitcase">
+        <img src="https://cdn.travelpulse.com/images/54aaedf4-a957-df11-b491-006073e71405/ee952e9e-f09c-49c2-bc5d-4303c880173a/630x355.jpg" id="hawaiibeach">
+        <img id="stamp" src="https://previews.123rf.com/images/tonybaggett/tonybaggett1202/tonybaggett120200020/12361341-usa-postage-stamp-greetings-from-hawaii.jpg">
+        <img id="dance" src="https://thumbs.dreamstime.com/t/cute-cartoon-girls-traditional-hawaiian-dancer-costume-vector-illustration-background-72366712.jpg">
+        <img id="flowers" src="https://i.pinimg.com/originals/e9/ba/53/e9ba53001e4a7f5965aa08b28f0bc302.jpg">
+        <img id="food" src="https://image.freepik.com/free-photo/exotic-tropical-blue-curacao-cocktail-drink-glass-with-plumeria-frangipani-flower-palm-leaf-fresh-coconut-pineapple-background_79919-1824.jpg">
+        <img id="resort" src="https://imagesvc.meredithcorp.io/v3/jumpstartpure/image?url=https://cf-images.us-east-1.prod.boltdns.net/v1/static/3281700261001/213fc94e-c187-440d-96bc-a9340c70cdf7/d26484f6-79b1-4062-80ca-78b4a82d3d83/1280x720/match/image.jpg&w=1280&h=720&q=90&c=cc">
+        <img id="volcano" src="https://inhabitat.com/wp-content/blogs.dir/1/files/2015/01/NASA-volcano-robota.jpg">
+        <img id="flag" src="https://i.pinimg.com/originals/71/40/9b/71409b576b970301299ea21b2e5c90fc.png">
+        <div>
+            <button id="backh" onclick="back2b()">BACK</button>
+            <button id="next2ins" onclick="next2ins()">NEXT</button>
+        </div>
+    </section>
+    <section id="s6" style="display:none">
+        <h1 id="myins">MY INSPIRATION</h1>
+        <div class="line"></div>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/bWWTk-pZX5g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div>
+            <a id="rb" href="https://www.abebooks.com/books/7-reasons-to-love-reading/index.shtml" target="_blank">7 Benefits of Reading: Why we should read.</a>
+        </div>
+        <p id="description">I started great reading books like the "Space Case", "The Harlem Charade", "The First Rule of Punk, the Harry Potter series, etc. Just remember, some of these may not sound interesting or look interesting, but you can't judge a book by its cover...maybe even title. Now, I enjoy reading a lot! If you don't like reading, you probably haven't found the right book yet.</p>
+        <button id="backins" onclick="back2ins()">BACK</button>
+    </section>
+</body>
+
+</html>
